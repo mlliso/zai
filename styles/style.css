@@ -7,6 +7,19 @@
     border-width: 1px;
 }
 
-.page {
+.menu {
+    width: 100px;
+}
 
+.header {
+    height: 50px;
+    background-color: #FF9999;
+}
+
+.page {
+    background-color: #FFAAAA;
+}
+
+.title {
+    background-color: #FF7777;
 }

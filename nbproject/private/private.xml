@@ -2,6 +2,13 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group name="ZAI"/>
+        <group name="ZAI">
+            <file>file:/home/mlisiecki/Learning/ZAI/php_project/zai/index.php</file>
+            <file>file:/home/mlisiecki/Learning/ZAI/php_project/zai/template/template.php</file>
+            <file>file:/home/mlisiecki/Learning/ZAI/php_project/zai/styles/style.css</file>
+            <file>file:/home/mlisiecki/Learning/ZAI/php_project/zai/template/menu.php</file>
+            <file>file:/home/mlisiecki/Learning/ZAI/php_project/zai/template/header.php</file>
+            <file>file:/home/mlisiecki/Learning/ZAI/php_project/zai/template/login.php</file>
+        </group>
     </open-files>
 </project-private>

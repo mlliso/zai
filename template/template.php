@@ -2,17 +2,22 @@
 <html>
     <head>
         <title>Strona Michała Lisieckiego. <?= $pagetitle ?></title>
-        <link rel="text/css" href="/zai/styles/style.css"/>
-        <style type="text/css">
-            .menu_entry {
-                border-style: solid;
-                border-width: 1px;
-            }
-        </style>
+        <link rel="stylesheet" href="/zai/styles/style.css"/>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
     </head>
     <body>
-        <div id="page" class="page">
-            <? include $menu ?>
+        <div class="page">
+            <?php
+            if (!empty($header)) {
+                include $header;
+            }
+            if (!empty($menu)) {
+                include $menu;
+            }
+            if(!empty($content)){
+                include $content;
+            }
+            ?>
         </div>
     </body>
 </html>
