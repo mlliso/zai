@@ -1,5 +1,4 @@
 <?php
-
 include_once './users/LoginManager.php';
 $loginManager = new LoginManager;
 if (!$loginManager->isLoggedIn()) {
