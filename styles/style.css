@@ -29,3 +29,11 @@
     top: 10px;
     right: 10px;
 }
+
+.login_form{
+    width: 200px;
+}
+
+.validation_error{
+    color: #FF0000;
+}

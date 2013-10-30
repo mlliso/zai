@@ -3,6 +3,7 @@
     <head>
         <title>Strona Michała Lisieckiego. <?= $pagetitle ?></title>
         <link rel="stylesheet" href="/zai/styles/style.css"/>
+        <script type="text/javascript" src="/zai/js/jstools.js"></script>
         <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
     </head>
     <body>

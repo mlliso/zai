@@ -11,19 +11,22 @@ class LoginManager {
     private $password = NULL;
 
     public function isLoggedIn() {
-        $this->username = isset($_SERVER['PHP_AUTH_USER']) ? $_SERVER['PHP_AUTH_USER'] : '';
-        $this->password = isset($_SERVER['PHP_AUTH_PW']) ? $_SERVER['PHP_AUTH_PW'] : '';
         return $this->validateCredentials();
     }
 
-    public function requireLogin() {
-        header('WWW-Authenticate: Basic realm="Tylko dla zarejestrowanych uzytkownikow"');
-        header('HTTP/1.0 401 Unauthorized');
+    public function logout() {
+        
     }
 
-    public function logout() {
-        unset($_SERVER['PHP_AUTH_USER']);
-        unset($_SERVER['PHP_AUTH_PW']);
+    public function login() {
+        $this->username = $_POST["username"];
+        $this->password = $_POST["password"];
+        if ($this->validateCredentials()) {
+            return TRUE;
+        } else {
+            header('HTTP/1.0 401 Unauthorized');
+            return FALSE;
+        }
     }
 
     private function validateCredentials() {

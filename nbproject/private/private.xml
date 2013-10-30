@@ -8,7 +8,13 @@
             <file>file:/home/mlisiecki/Learning/ZAI/php_project/zai/styles/style.css</file>
             <file>file:/home/mlisiecki/Learning/ZAI/php_project/zai/template/menu.php</file>
             <file>file:/home/mlisiecki/Learning/ZAI/php_project/zai/template/header.php</file>
-            <file>file:/home/mlisiecki/Learning/ZAI/php_project/zai/template/login.php</file>
+            <file>file:/home/mlisiecki/Learning/ZAI/php_project/zai/users/LoginManager.php</file>
+            <file>file:/home/mlisiecki/Learning/ZAI/php_project/zai/protected.php</file>
+            <file>file:/home/mlisiecki/Learning/ZAI/php_project/zai/template/error401.php</file>
+            <file>file:/home/mlisiecki/Learning/ZAI/php_project/zai/properties/settings.php</file>
+            <file>file:/home/mlisiecki/Learning/ZAI/php_project/zai/template/loginForm.php</file>
+            <file>file:/home/mlisiecki/Learning/ZAI/php_project/zai/template/register.php</file>
+            <file>file:/home/mlisiecki/Learning/ZAI/php_project/zai/js/jstools.js</file>
         </group>
     </open-files>
 </project-private>
