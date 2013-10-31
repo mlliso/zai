@@ -8,17 +8,31 @@
     </head>
     <body>
         <div class="page">
-            <?php
-            if (!empty($header)) {
-                include $header;
-            }
-            if (!empty($menu)) {
-                include $menu;
-            }
-            if(!empty($content)){
-                include $content;
-            }
-            ?>
+            <div class="header">
+                <?php
+                if (!empty($header)) {
+                    include $header;
+                }
+                ?>
+            </div>
+            <table>
+                <tr>
+                    <td class="menu">
+                        <?php
+                        if (!empty($menu)) {
+                            include $menu;
+                        }
+                        ?>
+                    </td>
+                    <td class="content">
+                        <?php
+                        if (!empty($content)) {
+                            include $content;
+                        }
+                        ?>
+                    </td>
+                </tr>
+            </table>
         </div>
     </body>
 </html>

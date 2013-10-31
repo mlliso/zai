@@ -1,7 +1,6 @@
 <?php
-
-include_once './users/LoginManager.php';
-$loginManager = new LoginManager;
+session_start();
+include dirname(__FILE__) . '/common.php';
 if (!$loginManager->isLoggedIn() && !$loginManager->login()) {
     $menu = "menu.php";
     $header = "header.php";

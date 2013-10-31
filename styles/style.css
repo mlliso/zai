@@ -8,6 +8,7 @@
 }
 
 .menu {
+    vertical-align: top;
     width: 200px;
 }
 
@@ -36,4 +37,10 @@
 
 .validation_error{
     color: #FF0000;
+}
+
+.content{
+    position: relative;
+    background-color: #77FF77;
+
 }
